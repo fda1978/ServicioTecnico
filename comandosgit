@@ -1,0 +1,6 @@
+git remote add origin https://github.com/fda1978/ServicioTecnico.git
+git add 
+git  commit -m ""
+git push -u origin master
+
+
