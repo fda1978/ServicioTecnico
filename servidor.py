@@ -2,13 +2,13 @@
 import cherrypy
 config = {
     'global' : {
-        'server.socket_host' : '192.168.0.109',
+        #'server.socket_host' : '192.168.0.109',
         'server.socket_port' : 8080
     }
 }
 
 
-class HelloWorld(object):
+class Servidor(object):
     @cherrypy.expose
     def index(self):
         return 'Hello World!'
@@ -17,4 +17,4 @@ class HelloWorld(object):
     def greet(self, name):
         return 'Hello {}!'.format(name)
 
-cherrypy.quickstart(HelloWorld(),'/',config)
+cherrypy.quickstart(Servidor(),'/',config)
