@@ -2,7 +2,7 @@
 import cherrypy
 config = {
     'global' : {
-        'server.socket_host' : '192.168.2.109',
+        'server.socket_host' : '192.168.0.109',
         'server.socket_port' : 8080
     }
 }
