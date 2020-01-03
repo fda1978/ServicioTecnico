@@ -11,25 +11,35 @@
   //background: lightgrey;
   border: 1px solid grey;
 }
+
+@media all {
+   div.saltopagina{
+      display: none;
+   }
+}
+   
+@media print{
+   div.saltopagina{
+      display:block;
+      page-break-before:always;
+   }
+}
 </style>
 </head>
 <body>
 <div class="container">
 <div class="row">
-	<div class="col-sm-8">
+	<div class="col-sm-12">
 		<div class="text-center">
-		<p><div class="display-4">DEVICES <BR /> TALLER DE REPARACION</div><br/>
-		 San Martin 514<br/>
-		 Telefono: 02966 729553<br/>
-	</p></div>
-	</div>
-	<div class="col-sm-4">
-	</div>
+		<h1 class="display-1">DEVICES </h1><BR /> <h2>COMPROBANTE DE RECEPCION PARA SERVICIO TECNICO</h2><br/>
+		 <h3>San Martin 514</h3>
+		 <h3>Telefono: 02966 729553	</h3><br /></div>
+</div>
 </div>
 
 <div class="row">
 	<div class="col-sm-12">
-		<p class="text-center font-weight-bold">ORDEN DE TRABAJO NRO 1155 - FECHA Entrada: 15/11/2019</p>
+		<div class="text-center"><h2>ORDEN DE TRABAJO NRO 1155 - FECHA Entrada: 15/11/2019</h2></div>
 		
 	</div> 
 </div>
@@ -100,21 +110,27 @@
 </div>
 <div class="row">
 			<div class="col-sm-12">
-				<p> Observaciones: </p><br /><br /><br />
+				<p> Descripcion del problema: </p><br /><br /><br />
 			</div>
 </div>
 <div class="row">
-			<div class="col-sm-4">
+			<div class="col-sm-6">
 				<p> Firma Empresa: </p><br /><br /><br />
 			</div>
-			<div class="col-sm-4">
-			</div>
-			<div class="col-sm-4">
+
+			<div class="col-sm-6">
 				<p> Firma Cliente</p><br /><br /><br />
 			</div>
 			
 </div>
+<div class="row">
+			<div class="col-sm-12">
+				<p> <b>IMPORTANTE </b> la recepcion es valida solamente para evaluacion de las fallas en el producto de la descripcion detallada.Para la reparacion se emitira otro presupuesto  con la descripcion de los problemas encontados y el costo estimado para su reparacion, que debera ser conformado nuevamente.</p><p> No se entregaran productos sin el presente talon o quien no sea el titular sin una autorizacion fehaciente. Si el equipo no es retirado dentro de los 90 dias desde la fecha de la comunicacion , se considerara en abandono y a disposicion de la empresa para su uso o usufructo , sin posibilidad de reclamo alguno , vencido ese plazo.</p><br /><br /><br />
+			</div>
 
 </div>
+</div>
+<div class="saltopagina"></div>
+<p>Otra pagina</p>
 </body>
 </html>
